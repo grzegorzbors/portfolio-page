@@ -51,7 +51,6 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #608dfd;
 }
 ul,
 ol {
@@ -104,7 +103,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #ebebe1 0%, #ef9a75 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -125,7 +124,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+  background: linear-gradient(to right, #ebebe1 0%, #ef9a75 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -135,10 +134,10 @@ hr {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #fff;
-  border-color: #608dfd;
+  border-color: #2a282b;
 }
 .navbar-default .navbar-toggle:hover > .icon-bar {
-  background-color: #608dfd;
+  background-color: #171f22;
 }
 .section-title {
   margin-bottom: 70px;
@@ -152,7 +151,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #364f6e 0%, #ef9a75 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -166,8 +165,8 @@ hr {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background-color: #ef9a75;
+  background-image: linear-gradient(to right, #364f6e 40%, #ef9a75 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -184,7 +183,7 @@ hr {
 .btn-custom.active {
   color: #fff;
   background-image: none;
-  background-color: #6372ff;
+  background-color: #364f6e;
 }
 .btn:active,
 .btn.active {
@@ -262,7 +261,7 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #364f6e 0%, #ef9a75 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -278,7 +277,7 @@ header .intro-text {
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
-  color: #5ca9fb;
+  color: #ef9a75;
   font-size: 11px;
   font-weight: 300;
   padding-right: 8px;
@@ -300,9 +299,13 @@ header .intro-text {
   padding: 100px 0;
 }
 .portfolio-item {
-  margin: 1px -15px 0 -14px;
-  padding: 0;
+  padding: 1rem 0;
 }
+
+.img-responsive {
+  width: 100%;
+}
+
 .portfolio-item .hover-bg {
   overflow: hidden;
   position: relative;
@@ -315,8 +318,8 @@ header .intro-text {
   color: #fff;
   background: linear-gradient(
     to right,
-    rgba(99, 114, 255, 0.8) 0%,
-    rgba(92, 169, 251, 0.8) 100%
+    rgba(42, 40, 43, 0.5) 0%,
+    rgba(239, 154, 117, 0.5) 100%
   );
   padding: 30% 0 0;
   height: 100%;
@@ -330,7 +333,7 @@ header .intro-text {
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
   transition: all 0.3s;
-  font-size: 18px;
+  font-size: 2rem;
   letter-spacing: 1px;
   font-weight: 500;
   text-transform: uppercase;
@@ -367,7 +370,7 @@ header .intro-text {
 #contact .section-title h2::after {
   position: absolute;
   content: "";
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(197, 184, 184, 0.3);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -474,7 +477,7 @@ label {
   transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-  color: #608dfd;
+  color: #171f22;
   background: #fff;
 }
 /* Footer Section*/

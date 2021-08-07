@@ -42,7 +42,7 @@ export const Contact = (props) => {
                   Wypełnij formularz poniżej i kliknij <em>wyślij</em>.
                 </p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+              <form name="sentMessage" validate="true" onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -97,7 +97,7 @@ export const Contact = (props) => {
               <h3>Informacje Kontaktowe</h3>
               <p>
                 <span>
-                  <i className="fa fa-map-marker"></i> Gdzie mieszkam
+                  <i className="fa fa-map-marker"></i> Lokalizacja
                 </span>
                 {props.data ? props.data.address : "loading"}
               </p>
@@ -116,18 +116,8 @@ export const Contact = (props) => {
               <div className="social">
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
-                      <i className="fa fa-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
+                    <a href={props.data ? props.data.github : "/"}>
+                      <i className="fa fa-github"></i>
                     </a>
                   </li>
                 </ul>

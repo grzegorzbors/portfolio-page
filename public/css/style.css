@@ -7,7 +7,7 @@ html {
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
-  background-color: #ebebe1;
+  background-color: #f6f7f9;
 }
 h2,
 h3,
@@ -19,16 +19,16 @@ h2 {
   margin: 0 0 20px;
   font-weight: 800;
   font-size: 36px;
-  color: #171f22;
+  color: #2f2f31;
 }
 h3 {
   font-size: 20px;
   font-weight: 600;
-  color: #171f22;
+  color: #2f2f31;
 }
 h4 {
   font-size: 18px;
-  color: #171f22;
+  color: #2f2f31;
   font-weight: 600;
 }
 h5 {
@@ -75,7 +75,7 @@ hr {
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #171f22;
+  background-color: #2f2f31;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
@@ -83,13 +83,13 @@ hr {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
-  color: #ebebe1;
+  color: #f6f7f9;
   text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #ebebe1;
+  color: #f6f7f9;
   font-size: 15px;
   font-weight: 400;
   padding: 8px 2px;
@@ -103,7 +103,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #ebebe1 0%, #ef9a75 100%);
+  background: linear-gradient(to right, #3070c2 0%, #f6f7f9 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -124,7 +124,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #ebebe1 0%, #ef9a75 100%) !important;
+  background: linear-gradient(to right, #f6f7f9 0%, #3070c2 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -133,11 +133,11 @@ hr {
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #fff;
+  background-color: #f6f7f9;
   border-color: #2a282b;
 }
 .navbar-default .navbar-toggle:hover > .icon-bar {
-  background-color: #171f22;
+  background-color: #2f2f31;
 }
 .section-title {
   margin-bottom: 70px;
@@ -151,7 +151,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #364f6e 0%, #ef9a75 100%);
+  background: linear-gradient(to right, #3070c2 0%, gray 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -164,9 +164,9 @@ hr {
 .btn-custom {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
-  color: #fff;
-  background-color: #ef9a75;
-  background-image: linear-gradient(to right, #364f6e 40%, #ef9a75 100%);
+  color: #f6f7f9;
+  background-color: gray;
+  background-image: linear-gradient(to right, #3070c2 0%, gray 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -181,9 +181,9 @@ hr {
 .btn-custom.focus,
 .btn-custom:active,
 .btn-custom.active {
-  color: #fff;
+  color: #f6f7f9;
   background-image: none;
-  background-color: #364f6e;
+  background-color: #3070c2;
 }
 .btn:active,
 .btn.active {
@@ -207,7 +207,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/pexels-paras-katwal-4218883.jpg) center center
+  background: url(../img/pexels-negative-space-160107.jpg) center center
     no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
@@ -220,7 +220,7 @@ a:focus,
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
-  color: #ebebe1;
+  color: #f6f7f9;
   font-size: 82px;
   font-weight: 700;
   text-transform: uppercase;
@@ -232,7 +232,7 @@ a:focus,
   color: #5ca9fb;
 }
 .intro p {
-  color: #ebebe1;
+  color: #f6f7f9;
   font-size: 22px;
   font-weight: 300;
   line-height: 30px;
@@ -261,7 +261,7 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #364f6e 0%, #ef9a75 100%);
+  background: linear-gradient(to right, #3070c2 0%, gray 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -277,7 +277,7 @@ header .intro-text {
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
-  color: #ef9a75;
+  color: #3070c2;
   font-size: 11px;
   font-weight: 300;
   padding-right: 8px;
@@ -285,7 +285,7 @@ header .intro-text {
 #about img {
   width: 520px;
   margin-top: 10px;
-  background: #fff;
+  background: #f6f7f9;
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
 }
@@ -315,11 +315,11 @@ header .intro-text {
   position: absolute;
   text-align: center;
   margin: 0 auto;
-  color: #fff;
+  color: #f6f7f9;
   background: linear-gradient(
     to right,
-    rgba(42, 40, 43, 0.5) 0%,
-    rgba(239, 154, 117, 0.5) 100%
+    rgba(48, 112, 194, 1) 0%,
+    rgba(128, 128, 128, 0.5) 100%
   );
   padding: 30% 0 0;
   height: 100%;
@@ -329,7 +329,7 @@ header .intro-text {
 }
 .hover-bg .hover-text > h4 {
   opacity: 0;
-  color: #fff;
+  color: #f6f7f9;
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
   transition: all 0.3s;
@@ -351,18 +351,18 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #171f22 0%, #413535 100%);
-  color: #ebebe1;
+  background: linear-gradient(to right, #2f2f31 0%, gray 100%);
+  color: #f6f7f9;
 }
 #contact .section-title {
   margin-bottom: 40px;
 }
 #contact .section-title p {
   font-size: 16px;
-  color: #ebebe1;
+  color: #f6f7f9;
 }
 #contact h2 {
-  color: #fff;
+  color: #f6f7f9;
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
@@ -377,7 +377,7 @@ header .intro-text {
   left: 30px;
 }
 #contact h3 {
-  color: #ebebe1;
+  color: #f6f7f9;
   margin-top: 80px;
   margin-bottom: 25px;
   padding-bottom: 20px;
@@ -393,11 +393,11 @@ header .intro-text {
 #contact .btn-custom {
   margin: 30px 0;
   background: transparent;
-  border: 2px solid #fff;
+  border: 2px solid #f6f7f9;
 }
 #contact .btn-custom:hover {
   color: #1f386e;
-  background: #fff;
+  background: #f6f7f9;
 }
 label {
   font-size: 12px;
@@ -412,7 +412,7 @@ label {
   font-size: 16px;
   line-height: 1.42857143;
   color: #444;
-  background-color: #fff;
+  background-color: #f6f7f9;
   background-image: none;
   border: 1px solid #ddd;
   border-radius: 0;
@@ -445,7 +445,7 @@ label {
 }
 
 #contact .contact-item p {
-  color: #ebebe1;
+  color: #f6f7f9;
 }
 
 #contact .contact-item span {
@@ -471,28 +471,27 @@ label {
   width: 48px;
   height: 48px;
   padding: 12px 0;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid #f6f7f9;
+  color: #f6f7f9;
   border-radius: 50%;
   transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-  color: #171f22;
-  background: #fff;
+  color: #2f2f31;
+  background: #f6f7f9;
 }
 /* Footer Section*/
-#footer {
-  background: #171f22;
-  padding: 30px 0;
+footer {
+  text-align: center;
+  color: #f6f7f9;
+  font-size: 1.5rem;
+  background: #2f2f31;
+  padding: 1.5rem 0;
 }
-#footer p {
-  color: #ebebe1;
-  font-size: 14px;
-}
-#footer a {
+footer a {
   color: #608dfd;
 }
-#footer a:hover {
+footer a:hover {
   border-bottom: 2px solid #608dfd;
 }
 

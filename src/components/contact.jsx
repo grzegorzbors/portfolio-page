@@ -126,18 +126,7 @@ export const Contact = (props) => {
           </div>
         </div>
       </div>
-      <div id="footer">
-        <div className="container text-center">
-          <p>
-            &copy; 2021 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
-            </a>
-            {". "}
-            Modified by Grzegorz Bors
-          </p>
-        </div>
-      </div>
+      <footer>&copy; 2021 Grzegorz Bors</footer>
     </div>
   );
 };

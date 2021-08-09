@@ -1,3 +1,5 @@
+import uuid from "react-uuid";
+
 export const About = (props) => {
   return (
     <div id="about">
@@ -16,8 +18,13 @@ export const About = (props) => {
                 <div className="col-lg-6 col-sm-6 col-xs-12">
                   <ul>
                     {props.data
-                      ? props.data.Skills.map((d, i) => (
-                          <li key={`${d}-${i}`}>{d}</li>
+                      ? props.data.Skills.map((skill) => (
+                          <li key={uuid()}>
+                            {skill.skillIconClass ? (
+                              <i className={skill.skillIconClass}></i>
+                            ) : null}
+                            {skill.skillName}
+                          </li>
                         ))
                       : "loading"}
                   </ul>
@@ -25,8 +32,13 @@ export const About = (props) => {
                 <div className="col-lg-6 col-sm-6 col-xs-12">
                   <ul>
                     {props.data
-                      ? props.data.Skills2.map((d, i) => (
-                          <li key={`${d}-${i}`}> {d}</li>
+                      ? props.data.Skills2.map((skill) => (
+                          <li key={uuid()}>
+                            {skill.skillIconClass ? (
+                              <i className={skill.skillIconClass}></i>
+                            ) : null}
+                            {skill.skillName}
+                          </li>
                         ))
                       : "loading"}
                   </ul>

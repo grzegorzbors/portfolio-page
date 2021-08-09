@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
-import { Navigation } from "./components/navigation";
-import { Header } from "./components/header";
-import { About } from "./components/about";
-import { Gallery } from "./components/gallery";
-import { Contact } from "./components/contact";
+import { Navigation } from "./components/Navigation";
+import { Header } from "./components/Header";
+import { About } from "./components/About";
+import { Gallery } from "./components/Gallery";
+import { Contact } from "./components/Contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";

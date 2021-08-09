@@ -97,7 +97,7 @@ export const Contact = (props) => {
               <h3>Informacje Kontaktowe</h3>
               <p>
                 <span>
-                  <i className="fa fa-map-marker"></i> Lokalizacja
+                  <i className="fas fa-map-marker-alt"></i> Lokalizacja
                 </span>
                 {props.data ? props.data.address : "loading"}
               </p>
@@ -105,7 +105,7 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-envelope-o"></i> Email
+                  <i className="fas fa-envelope"></i> Email
                 </span>{" "}
                 {props.data ? props.data.email : "loading"}
               </p>
@@ -117,7 +117,12 @@ export const Contact = (props) => {
                 <ul>
                   <li>
                     <a href={props.data ? props.data.github : "/"}>
-                      <i className="fa fa-github"></i>
+                      <i className="fab fa-github"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href={props.data ? props.data.linkedin : "/"}>
+                      <i className="fab fa-linkedin"></i>
                     </a>
                   </li>
                 </ul>

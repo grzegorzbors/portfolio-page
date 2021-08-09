@@ -124,7 +124,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #f6f7f9 0%, #3070c2 100%) !important;
+  background: linear-gradient(to right, #3070c2 0%, #f6f7f9 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -175,6 +175,7 @@ hr {
   border-radius: 25px;
   transition: all 0.5s linear;
   border: 0;
+  position: relative;
 }
 .btn-custom:hover,
 .btn-custom:focus,
@@ -185,6 +186,33 @@ hr {
   background-image: none;
   background-color: #3070c2;
 }
+
+/* badger animation */
+.btn-custom::before {
+  position: absolute;
+  content: "";
+  background-image: url("../img/badger.png");
+  left: -2rem;
+  width: 100%;
+}
+
+.btn-custom:hover::before {
+  top: -20rem;
+  height: 20rem;
+  animation: 2s slide-up;
+}
+
+@keyframes slide-up {
+  from {
+    top: 0;
+    height: 0;
+  }
+
+  to {
+    top: -20rem;
+  }
+}
+
 .btn:active,
 .btn.active {
   background-image: none;
@@ -207,7 +235,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/pexels-negative-space-160107.jpg) center center
+  background: url(../img/header-pexels-negative-space-160107.jpg) center center
     no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
@@ -268,20 +296,71 @@ header .intro-text {
   left: 0;
 }
 #about .about-text li {
+  font-size: 1.5rem;
+  line-height: 2;
   color: #2a282b;
-  margin-bottom: 6px;
-  margin-left: 6px;
   list-style: none;
-  padding: 0;
+  padding: 0.3rem;
+  display: flex;
+  align-items: center;
 }
-#about .about-text li:before {
-  content: "\f00c";
-  font-family: "FontAwesome";
-  color: #3070c2;
-  font-size: 11px;
-  font-weight: 300;
-  padding-right: 8px;
+
+/* FontAwesome in skills section */
+#about .skill-icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+  transition: all 1s ease-in-out;
 }
+
+#about .skill-icon:hover {
+  transform: rotate(360deg);
+}
+
+#about .html {
+  color: #e34f26;
+}
+
+#about .css {
+  color: #2965f1;
+}
+
+#about .js {
+  color: #f7df1e;
+  position: relative;
+}
+
+#about .js::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 2px;
+  background-color: black;
+  width: 15px;
+  height: 15px;
+  z-index: -1;
+}
+
+#about .react {
+  color: #61dbfb;
+}
+
+#about .adobe {
+  color: #470137;
+}
+
+#about .sass {
+  color: #cd6799;
+  margin-right: 0.4rem;
+}
+
+#about .sql {
+  color: #00758f;
+}
+
+#about .rwd {
+  margin-right: 0.7rem;
+}
+
 #about img {
   width: 520px;
   margin-top: 10px;
@@ -453,7 +532,7 @@ label {
   margin-bottom: 10px;
   display: block;
 }
-#contact .contact-item i.fa {
+#contact .contact-item i.fab {
   margin-right: 10px;
 }
 #contact .social {
@@ -466,7 +545,7 @@ label {
   display: inline-block;
   margin: 0 20px;
 }
-#contact .social i.fa {
+#contact .social i.fab {
   font-size: 22px;
   width: 48px;
   height: 48px;
@@ -476,8 +555,8 @@ label {
   border-radius: 50%;
   transition: all 0.3s;
 }
-#contact .social i.fa:hover {
-  color: #2f2f31;
+#contact .social i.fab:hover {
+  color: black;
   background: #f6f7f9;
 }
 /* Footer Section*/

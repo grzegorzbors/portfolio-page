@@ -1,26 +1,27 @@
 {
   "Header": {
     "title": "Grzegorz Bors",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "paragraph": "Witaj na mojej stronie."
   },
   "About": {
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "Skills": [
-      "HTML5",
-      "CSS",
-      "RWD",
-      "JS"
+      {"skillName":"HTML5", "skillIconClass": "fab fa-html5 skill-icon html"},
+      {"skillName":"CSS", "skillIconClass": "fab fa-css3-alt skill-icon css"},
+      {"skillName":"JS", "skillIconClass": "fab fa-js skill-icon js"},
+      {"skillName":"RWD", "skillIconClass": "fas fa-sliders-h skill-icon rwd"}
     ],
     "Skills2": [
-      "React",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      {"skillName":"React", "skillIconClass": "fab fa-react skill-icon react"},
+      {"skillName":"Adobe XD", "skillIconClass": "fas fa-palette skill-icon adobe"},
+      {"skillName":"Sass", "skillIconClass": "fab fa-sass skill-icon sass"},
+      {"skillName":"SQL", "skillIconClass": "fas fa-database skill-icon sql"}
     ]
   },
   "Contact": {
     "address": "Kraków",
     "email": "bors.grzegorz@gmail.com",
-    "github" :"https://github.com/grzegorzbors"
+    "github" :"https://github.com/grzegorzbors",
+    "linkedin": "https://linkedin.com/in/grzegorz-bors-24727390"
   }
 }

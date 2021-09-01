@@ -274,6 +274,12 @@ header .intro-text {
 }
 
 /* About Section */
+
+#about .about-img-col {
+  display: flex;
+  justify-content: center;
+}
+
 #about {
   padding: 100px 0;
 }
@@ -357,6 +363,14 @@ header .intro-text {
   color: #00758f;
 }
 
+#about .vba {
+  color: #1d6f42;
+}
+
+#about .git {
+  color: #3e2c00;
+}
+
 #about .rwd {
   margin-right: 0.7rem;
 }
@@ -377,6 +391,12 @@ header .intro-text {
 #portfolio {
   padding: 100px 0;
 }
+
+.portfolio-items {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+}
+
 .portfolio-item {
   padding: 1rem 0;
 }
@@ -581,5 +601,17 @@ footer a:hover {
 
   header .intro-text h1 {
     font-size: 5rem;
+  }
+}
+
+@media (max-width: 960px) {
+  #about h2 {
+    text-align: center;
+  }
+
+  #about h2::after {
+    bottom: 0;
+    margin-left: -30px;
+    left: 50%;
   }
 }

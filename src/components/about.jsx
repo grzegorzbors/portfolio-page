@@ -5,9 +5,8 @@ export const About = (props) => {
     <div id="about">
       <div className="container">
         <div className="row">
-          <div className="col-xs-12 col-md-6">
-            {" "}
-            <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
+          <div className="col-xs-12 col-md-6 about-img-col">
+            <img src="img/about.jpg" className="img-responsive" alt="author" />
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
@@ -15,7 +14,7 @@ export const About = (props) => {
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
               <h3>Moje umiejętności</h3>
               <div className="list-style">
-                <div className="col-lg-6 col-sm-6 col-xs-12">
+                <div className="col-lg-6 col-sm-6 col-xs-6">
                   <ul>
                     {props.data
                       ? props.data.Skills.map((skill) => (
@@ -29,7 +28,7 @@ export const About = (props) => {
                       : "loading"}
                   </ul>
                 </div>
-                <div className="col-lg-6 col-sm-6 col-xs-12">
+                <div className="col-lg-6 col-sm-6 col-xs-6">
                   <ul>
                     {props.data
                       ? props.data.Skills2.map((skill) => (

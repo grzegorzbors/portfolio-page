@@ -4,18 +4,20 @@
     "paragraph": "Zostań na chwilę i poczytaj."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Jestem kreatywną osobą interesującą się programowaniem oraz nowymi technologiami i ich aplikacją w pracy. Obecnie rozwijam się w kierunku front end skupiając się na React.js. W wolnym czasie gram na gitarze i czytam książki i gram w Magic: the Gathering.",
     "Skills": [
       {"skillName":"HTML5", "skillIconClass": "fab fa-html5 skill-icon html"},
       {"skillName":"CSS", "skillIconClass": "fab fa-css3-alt skill-icon css"},
       {"skillName":"JS", "skillIconClass": "fab fa-js skill-icon js"},
-      {"skillName":"RWD", "skillIconClass": "fas fa-sliders-h skill-icon rwd"}
+      {"skillName":"RWD", "skillIconClass": "fas fa-sliders-h skill-icon rwd"},
+      {"skillName":"VBA", "skillIconClass": "fas fa-file-excel skill-icon vba"}
     ],
     "Skills2": [
       {"skillName":"React", "skillIconClass": "fab fa-react skill-icon react"},
       {"skillName":"Adobe XD", "skillIconClass": "fas fa-palette skill-icon adobe"},
       {"skillName":"Sass", "skillIconClass": "fab fa-sass skill-icon sass"},
-      {"skillName":"SQL", "skillIconClass": "fas fa-database skill-icon sql"}
+      {"skillName":"SQL", "skillIconClass": "fas fa-database skill-icon sql"},
+      {"skillName":"Git", "skillIconClass": "fab fa-git skill-icon git"}
     ]
   },
   "Contact": {

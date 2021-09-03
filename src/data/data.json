@@ -1,10 +1,10 @@
 {
   "Header": {
     "title": "Grzegorz Bors",
-    "paragraph": "Zostań na chwilę i poczytaj."
+    "paragraph": "Zostań na chwilę i poczytaj..."
   },
   "About": {
-    "paragraph": "Jestem kreatywną osobą interesującą się programowaniem oraz nowymi technologiami i ich aplikacją w pracy. Obecnie rozwijam się w kierunku front end skupiając się na React.js. W wolnym czasie gram na gitarze i czytam książki i gram w Magic: the Gathering.",
+    "paragraph": "Jestem kreatywną osobą interesującą się programowaniem oraz nowymi technologiami i ich aplikacją w pracy. Obecnie rozwijam się w kierunku front end skupiając się na React.js. W wolnym czasie gram na gitarze i czytam książki i rozwijam wiedzę o programowaniu.",
     "Skills": [
       {"skillName":"HTML5", "skillIconClass": "fab fa-html5 skill-icon html"},
       {"skillName":"CSS", "skillIconClass": "fab fa-css3-alt skill-icon css"},

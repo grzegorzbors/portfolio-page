@@ -8,7 +8,7 @@ export const Gallery = (props) => {
         </div>
         <div className="row">
           <div className="portfolio-items">
-            <div className="col-sm-6 col-md-4 col-lg-4">
+            <div className="col-sm-12 col-md-6 col-lg-6">
               <div className="portfolio-item">
                 <div className="hover-bg">
                   <a
@@ -27,7 +27,7 @@ export const Gallery = (props) => {
                 </div>
               </div>
             </div>
-            <div className="col-sm-6 col-md-4 col-lg-4">
+            <div className="col-sm-12 col-md-6 col-lg-6">
               <div className="portfolio-item">
                 <div className="hover-bg">
                   <a
@@ -46,7 +46,7 @@ export const Gallery = (props) => {
                 </div>
               </div>
             </div>
-            <div className="col-sm-6 col-md-4 col-lg-4">
+            <div className="col-sm-12 col-md-6 col-lg-6">
               <div className="portfolio-item">
                 <div className="hover-bg">
                   <a
@@ -65,7 +65,7 @@ export const Gallery = (props) => {
                 </div>
               </div>
             </div>
-            <div className="col-sm-6 col-md-4 col-lg-4">
+            <div className="col-sm-12 col-md-6 col-lg-6">
               <div className="portfolio-item">
                 <div className="hover-bg">
                   <a

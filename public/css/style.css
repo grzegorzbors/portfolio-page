@@ -392,11 +392,6 @@ header .intro-text {
   padding: 100px 0;
 }
 
-.portfolio-items {
-  display: grid;
-  grid-template-columns: repeat(2, 2fr);
-}
-
 .portfolio-item {
   padding: 1rem 0;
 }
@@ -605,8 +600,16 @@ footer a:hover {
 }
 
 @media (max-width: 960px) {
+  h3 {
+    text-align: center;
+  }
+
   #about h2 {
     text-align: center;
+  }
+
+  #about li {
+    justify-content: center;
   }
 
   #about h2::after {

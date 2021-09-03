@@ -4,7 +4,7 @@
     "paragraph": "Zostań na chwilę i poczytaj..."
   },
   "About": {
-    "paragraph": "Jestem kreatywną osobą interesującą się programowaniem oraz nowymi technologiami i ich aplikacją w pracy. Obecnie rozwijam się w kierunku front end skupiając się na React.js. W wolnym czasie gram na gitarze i czytam książki i rozwijam wiedzę o programowaniu.",
+    "paragraph": "Jestem kreatywną osobą interesującą się programowaniem oraz nowymi technologiami i ich aplikacją w pracy. Obecnie rozwijam się w kierunku front end skupiając się na React.js. W wolnym czasie gram na gitarze, czytam książki i rozwijam umiejętności programowania.",
     "Skills": [
       {"skillName":"HTML5", "skillIconClass": "fab fa-html5 skill-icon html"},
       {"skillName":"CSS", "skillIconClass": "fab fa-css3-alt skill-icon css"},
@@ -20,6 +20,12 @@
       {"skillName":"Git", "skillIconClass": "fab fa-git skill-icon git"}
     ]
   },
+    "Portfolio": [
+      {"url": "https://objective-jang-570820.netlify.app", "title": "Sunnyside Landing Page", "img": "img/portfolio/sunnyside-project.png"},
+      {"url": "https://jovial-mclean-c7b204.netlify.app", "title": "Countdown", "img": "img/portfolio/countdown.png"},
+      {"url": "https://musing-snyder-8ce5b3.netlify.app", "title": "Simple Card Component", "img": "img/portfolio/card-component.png"},
+      {"url": "https://amazing-pasteur-4c1568.netlify.app", "title": "Beauty Clinic", "img": "img/portfolio/hospital.png"}
+    ],
   "Contact": {
     "address": "Kraków",
     "email": "bors.grzegorz@gmail.com",

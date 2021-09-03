@@ -188,7 +188,7 @@ hr {
 }
 
 /* badger animation */
-.btn-custom::before {
+.btn-learn-more::before {
   position: absolute;
   content: "";
   background-image: url("../img/badger.png");
@@ -196,7 +196,7 @@ hr {
   width: 100%;
 }
 
-.btn-custom:hover::before {
+.btn-learn-more:hover::before {
   top: -20rem;
   height: 20rem;
   animation: 2s slide-up;
@@ -608,9 +608,9 @@ footer a:hover {
     text-align: center;
   }
 
-  #about li {
+  /* #about li {
     justify-content: center;
-  }
+  } */
 
   #about h2::after {
     bottom: 0;

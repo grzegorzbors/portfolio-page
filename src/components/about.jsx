@@ -11,7 +11,7 @@ export const About = (props) => {
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
               <h2>O Mnie</h2>
-              <p>{props.data ? props.data.paragraph : "loading..."}</p>
+              <p>{props.data ? props.data.paragraph : "Ładowanie..."}</p>
               <h3>Moje umiejętności</h3>
               <div className="list-style">
                 <div className="col-lg-6 col-sm-6 col-xs-6">
@@ -25,7 +25,7 @@ export const About = (props) => {
                             {skill.skillName}
                           </li>
                         ))
-                      : "loading"}
+                      : "Ładowanie..."}
                   </ul>
                 </div>
                 <div className="col-lg-6 col-sm-6 col-xs-6">
@@ -39,7 +39,7 @@ export const About = (props) => {
                             {skill.skillName}
                           </li>
                         ))
-                      : "loading"}
+                      : "Ładowanie..."}
                   </ul>
                 </div>
               </div>

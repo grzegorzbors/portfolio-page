@@ -574,6 +574,10 @@ label {
   color: black;
   background: #f6f7f9;
 }
+
+#contact .social i.fa-linkedin:hover {
+  color: #2867b2;
+}
 /* Footer Section*/
 footer {
   text-align: center;

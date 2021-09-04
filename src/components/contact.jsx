@@ -41,7 +41,8 @@ export const Contact = (props) => {
               <div className="section-title">
                 <h2>Kontakt</h2>
                 <p>
-                  Wypełnij formularz poniżej i kliknij <em>wyślij</em>.
+                  Chcesz się skontaktować? Wypełnij formularz poniżej i kliknij{" "}
+                  <em>wyślij</em>.
                 </p>
               </div>
               <form name="sentMessage" validate="true" onSubmit={handleSubmit}>
@@ -101,7 +102,7 @@ export const Contact = (props) => {
                 <span>
                   <i className="fas fa-map-marker-alt"></i> Lokalizacja
                 </span>
-                {props.data ? props.data.address : "loading"}
+                {props.data ? props.data.address : "Ładowanie..."}
               </p>
             </div>
             <div className="contact-item">
@@ -109,7 +110,11 @@ export const Contact = (props) => {
                 <span>
                   <i className="fas fa-envelope"></i> Email
                 </span>{" "}
-                {props.data ? props.data.email : "loading"}
+                {props.data ? (
+                  <a href={`mailto:${props.data.email}`}>{props.data.email}</a>
+                ) : (
+                  "Ładowanie..."
+                )}
               </p>
             </div>
           </div>

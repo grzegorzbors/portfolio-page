@@ -27,7 +27,7 @@ export const Gallery = ({ data }) => {
                     </div>
                   </div>
                 ))
-              : "loading"}
+              : "Ładowanie..."}
           </div>
         </div>
       </div>

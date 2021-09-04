@@ -21,10 +21,10 @@
     ]
   },
     "Portfolio": [
-      {"url": "https://objective-jang-570820.netlify.app", "title": "Sunnyside Landing Page", "img": "img/portfolio/sunnyside-project.png"},
-      {"url": "https://jovial-mclean-c7b204.netlify.app", "title": "Countdown", "img": "img/portfolio/countdown.png"},
-      {"url": "https://musing-snyder-8ce5b3.netlify.app", "title": "Simple Card Component", "img": "img/portfolio/card-component.png"},
-      {"url": "https://amazing-pasteur-4c1568.netlify.app", "title": "Beauty Clinic", "img": "img/portfolio/hospital.png"}
+      {"url": "https://objective-jang-570820.netlify.app", "title": "Sunnyside Landing Page", "img": "img/portfolio/sunnyside.png"},
+      {"url": "https://jovial-mclean-c7b204.netlify.app", "title": "Countdown", "img": "img/portfolio/counter.png"},
+      {"url": "https://musing-snyder-8ce5b3.netlify.app", "title": "Simple Card Component", "img": "img/portfolio/component.png"},
+      {"url": "https://amazing-pasteur-4c1568.netlify.app", "title": "Beauty Clinic", "img": "img/portfolio/clinic.png"}
     ],
   "Contact": {
     "address": "Kraków",

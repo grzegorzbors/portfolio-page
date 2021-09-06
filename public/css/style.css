@@ -301,6 +301,11 @@ header .intro-text {
   bottom: 0;
   left: 0;
 }
+
+#about .about-text p {
+  text-align: justify;
+}
+
 #about .about-text li {
   font-size: 1.5rem;
   line-height: 2;

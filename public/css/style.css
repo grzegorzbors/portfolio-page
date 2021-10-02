@@ -618,10 +618,6 @@ footer a:hover {
     text-align: center;
   }
 
-  /* #about li {
-    justify-content: center;
-  } */
-
   #about h2::after {
     bottom: 0;
     margin-left: -30px;
